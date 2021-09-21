@@ -51,8 +51,10 @@ Windows:
 Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
 
 git clone https://github.com/udacity/deep-reinforcement-learning.git
+
    cd deep-reinforcement-learning/python
    pip install .
+
 Create an IPython kernel for the drlnd environment.
    python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
