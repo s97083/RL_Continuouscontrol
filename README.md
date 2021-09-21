@@ -42,12 +42,12 @@ To set up your python environment to run the code in this repository, follow the
 Create (and activate) a new environment with Python 3.6.
 
 Linux or Mac:
-     conda create --name drlnd python=3.6
-     source activate drlnd
+    conda create --name drlnd python=3.6
+    source activate drlnd
 	 
 Windows:
-     conda create --name drlnd python=3.6
-     activate drlnd
+    conda create --name drlnd python=3.6
+    activate drlnd
 
 Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
 
