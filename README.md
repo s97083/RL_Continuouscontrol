@@ -37,6 +37,9 @@ Every entry in the action vector should be a number between -1 and 1.
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux_NoVis.zip) (version 1) or [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) (version 2) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
 ### Dependencies
+It is recommended to follow the Udacity DRL ND dependencies [instructions here](https://github.com/udacity/deep-reinforcement-learning#dependencies)   
+This project utilises [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md), [NumPy](http://www.numpy.org/) and [PyTorch](https://pytorch.org/)   
+
 To set up your python environment to run the code in this repository, follow the instructions below.
 
 Create (and activate) a new environment with Python 3.6.
@@ -48,17 +51,6 @@ Linux or Mac:
 Windows:  
   conda create --name drlnd python=3.6  
   activate drlnd  
-
-Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
-
-git clone https://github.com/udacity/deep-reinforcement-learning.git  
-   cd deep-reinforcement-learning/python  
-   pip install .  
-
-Create an IPython kernel for the drlnd environment.  
-   python -m ipykernel install --user --name drlnd --display-name "drlnd"  
-
-Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.  
 
 
 ### Instructions
